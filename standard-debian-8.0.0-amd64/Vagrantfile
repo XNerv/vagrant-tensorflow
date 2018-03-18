@@ -5,7 +5,7 @@ $script_provision = <<SCRIPT
   echo Provisioning...
     apt-get --yes update
     apt-get --yes install python-pip python-dev
-    pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.6.0-cp27-none-linux_x86_64.whl
+    pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.6.0rc1-cp27-none-linux_x86_64.whl
   echo Provisioned!!!
 SCRIPT
 
