@@ -3,7 +3,7 @@
 # Vagrant Machine  - TensorFlow
 This vagrant machine(s) has been created to make sure developers have an easy method for boostrapping a local TensorFlow development environment.
 
-* Machines with TensorFlow 0.6.0
+* Machines with TensorFlow 1.6.0 (https://github.com/tensorflow/tensorflow/tree/v1.6.0-rc1)
     * Debian 8.0.0
         * Provider(s)          : VirtualBox.
         * Arch(s)              : amd64.
@@ -20,7 +20,6 @@ This vagrant machine(s) has been created to make sure developers have an easy me
 1. You need to have installed in your system the following softwares:
     * [VirtualBox](https://www.virtualbox.org)                 - Tested with version 5.0.x
     * [Vagrant](https://www.vagrantup.com)                     - Tested with version 1.7.4
-    * [vbguest](https://github.com/dotless-de/vagrant-vbguest) - Tested with version 0.11.0
 2. Clone this git repository in /some/path/ and go to him.
 3. Choose one of the machines in the repository and go to him.
 3. Run `vagrant up` to start your machine.
